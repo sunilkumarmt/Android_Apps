@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Veg">
+    <menu>
+        <item
+            android:id="@+id/vRice"
+            android:title="Veg Rice"
+            />
+        <item
+            android:id="@+id/vcurry"
+            android:title="Mix Veg Curry"
+            />
+    </menu>
+</item>
+    <item android:title="Non Veg ">
+        <menu>
+            <item
+                android:id="@+id/cb"
+                android:title="Chicken Biryani"
+                />
+            <item
+                android:id="@+id/mcurry"
+                android:title="Mutton Curry"
+                />
+        </menu>
+    </item>
+    <item android:title="TOTAL"
+        android:id="@+id/total"/>
+
+
+
+
+
+</menu>
